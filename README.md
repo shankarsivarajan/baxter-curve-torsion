@@ -1,6 +1,8 @@
 # baxter-curve-torsion
 
-Companion code for Shankar Sivarajan, *Rational points on Baxter's curve and roots of unity in the eight-vertex model* (2026).
+Companion code for 
+
+> Shankar Sivarajan, *Rational points on Baxter's curve and roots of unity in the eight-vertex model*, [hexagon:2611.00791](https://hexagonmath.org/2611.00791)  (2026).
 
 Computes the torsion loci of the crossing point $c$ over $\mathbb{Q}(\Delta, \Gamma)$ via the chord group law on $E_{\Delta,\Gamma} \subset \mathbb{P}^3$ and verifies every computation in the paper.
 
