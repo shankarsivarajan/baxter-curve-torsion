@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "baxter-curve-torsion"
+version = "0.1.0"
+description = "Rational points on Baxter's curve: exact torsion loci of the crossing point of the eight-vertex model"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Shankar Sivarajan", email = "sivarajn@umich.edu" }]
+dependencies = ["sympy>=1.12", "mpmath>=1.3", "python-flint>=0.6"]
+
+[tool.setuptools.packages.find]
+include = ["baxter_curve*"]
+
+[tool.setuptools.package-data]
+baxter_curve = ["data/*.txt"]
