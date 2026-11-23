@@ -1,4 +1,4 @@
-# baxter-curve-torsion
+# Baxter's Curve Torsion
 
 Companion code for 
 
